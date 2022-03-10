@@ -1,11 +1,9 @@
 import { UserImpl } from './UserImpl';
-import * as config from './beanConfig.json';
-
 
 type BeanFactoryType = Record<string, Object>;
 
 const beanFactory: BeanFactoryType = {
-  'userImpl': new UserImpl(config.user.name, config.user.age)
+  'userImpl': new UserImpl("Tom", 45)
 }
 
 type beanTypes = keyof BeanFactoryType;
