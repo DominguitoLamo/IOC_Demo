@@ -1,0 +1,10 @@
+{
+  "father": {
+    "name": "Thomas",
+    "age": 50
+  },
+  "student": {
+    "name": "Tom",
+    "age": 45
+  }
+}
